@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidade de Medida</title>
+
+    <style>
+        *, *::after, *::before { box-sizing: border-box; }
+        body { font-family: verdana; }
+
+        /* Elemento raíz (html)*/
+        html { font-size: 16px;} /* 16px é o padrão */
+
+        /* div (PAI) */
+        .exemplo-eme {
+            font-size: 20px;
+
+            /* FILHOS */
+            h2 { font-size: 2em; }
+            p { font-size: 1em; }
+        }
+
+        h1 { font-size: 3rem; } /* 48px */
+        h2 { font-size: 2rem; } /* 32px */
+        h3 { font-size: 1.5rem; }/* 24px */
+        p { font-size: 1rem; } /* 16px */
+        code {
+            background-color: yellow;
+            padding: 0.5rem; /* 8px */
+            border: solid 0.25rem red; /* 4px */
+        }
+
+        /* CSS Reset */
+        body, h1, h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: orange;
+            height: 30vh;
+        }
+
+        main {
+            background-color: lightblue;
+            min-height: 70vh;
+            width: 80vw;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Unidade de medida úteis para Design Responsivo</h1>
+    </header>
+
+    <!-- Unidades já conhecidas/usadas px (pixel) -> unidade absoluta, fixa, previsível % (porcentagem) -> unidade relativa, variável -->
+
+    <main>
+    <h2>Root EM (R-EME)</h2>
+    <p>A medidade Root-EME (rem) é relativa ao ,<code>font-size</code>do elemento <b>raíz html</b>.</p>
+
+    <h3>Lorem,ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Omnis, odit.</p>
+    <ul>
+        <li>Lorem, ipsum dolor</li>
+        <li>Lorem, ipsum dolor</li>
+    </ul>
+
+
+    <h2>EME</h2>
+    <p><i>Obs.: cada vez menos usada</i></p>
+
+    <p>A medida EME (em) é relativa ao <code>font-size</code>do elemento <b>pai</b>.</p>
+
+    <div class="exemplo-eme">
+        <h2>Este é o h2 dentro da div</h2>
+        <p>Este é o p dentro da div</p>
+    </div>
+
+    <h2>VW e VH</h2>
+    <p>AS medidas VW (Viewport Width) e VH (Viewport Height) São relativas á área de visualização do navegador (chamada de viewport).</p>
+    <p>VW diz respeito á largura e VH diz respeito á altura.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, porro enim nobis deserunt quidem ipsam, quae nemo, aliquid at tempora sequi beatae necessitatibus ea dicta cumque repellat nihil asperiores numquam?</p>
+    <p>Aliquam quos autem unde, minima recusandae, et commodi totam officiis ut amet temporibus repellat consequuntur sunt. Similique perferendis, excepturi velit fugiat consectetur reiciendis voluptatibus dolore dicta qui itaque, inventore laborum?</p>
+    <p>Omnis eveniet possimus temporibus quod, eligendi cum alias voluptate reiciendis vero ab quaerat distinctio magnam placeat facilis itaque, doloremque sed, facere dolore veritatis sit. Autem nam nihil repellendus a quidem.</p>
+    <p>Adipisci, sapiente. Minima id ipsa, modi nihil, exercitationem natus impedit magnam dignissimos atque assumenda numquam quos aspernatur debitis error, architecto tempora itaque! Quia laborum repudiandae, magnam praesentium cupiditate alias labore.</p>
+    <p>Quisquam omnis placeat provident inventore? Hic excepturi pariatur id totam sequi tenetur libero necessitatibus vel iure asperiores! Nam, sapiente natus! Odio quibusdam labore alias perferendis omnis asperiores error unde corrupti!</p>
+    <p>Accusantium velit et molestias quod sint. Facere doloribus nostrum, quis quaerat sit hic enim impedit ducimus aliquam tempore voluptatem? Quas enim atque cumque, alias nihil voluptatum ad. Optio, explicabo quo.</p>
+    <p>Commodi hic nam nostrum voluptatibus error suscipit quos modi ad, vitae saepe iure excepturi, deserunt ex! Possimus eum quo explicabo porro quidem aliquid inventore itaque, ratione nihil! Asperiores, similique qui?</p>
+    <p>Unde fugiat est voluptatibus vitae dicta quasi nulla quia adipisci corrupti, blanditiis ab sapiente labore sequi consectetur perspiciatis voluptatum hic at beatae architecto. Error cumque repellendus beatae enim, eligendi qui?</p>
+    <p>Possimus nesciunt soluta iure vero. Accusantium, ratione alias natus obcaecati nihil a excepturi dolores nobis maxime deserunt quidem! Vel iste dolorum voluptatum magnam sunt voluptatem fugiat adipisci at commodi veniam.</p>
+    <p>Error sint, quia officia provident dignissimos obcaecati, nemo ullam earum aliquam eaque tempore. Quidem quam maxime eaque, quasi error officiis saepe neque officia quod reiciendis delectus cumque, architecto, deserunt minus.</p>
+</main>
+
+</body>
+</html>
