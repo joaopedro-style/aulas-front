@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+
+    <style>
+        *,
+        *::after,
+        *::before {
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: orange;
+        }
+
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 0;
+        }
+
+        .topo {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            padding: 4% 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 3px solid black;
+        }
+
+        .menu {
+            background-color: black;
+            width: 65%;
+            height: 7%;
+            padding: 7px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a:hover {
+            color: goldenrod;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .ocultar {
+            display: none;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding-top: 1%;
+        }
+
+        article {
+            width: 48%;
+            background-color: white;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: white;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 2%;
+            padding: 4%;
+        }
+
+        .tamanho {
+            font-size: 1rem;
+        }
+
+        div a {
+            font-size: 14px;
+        }
+
+        p a {
+            text-decoration: none;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+
+        .espacamento {
+            margin-top: 5px;
+            padding: 8px;
+        }
+
+        .contato-conosco {
+            width: 50%;
+            border-right: 3px solid black;
+            height: 100%;
+        }
+
+        .siga-nos {
+            width: 50%;
+        }
+
+        @media screen and (min-width: 640px) {
+            .ocultar {
+                display: initial;
+            }
+
+            div a {
+                font-size: 13px;
+            }
+
+            footer {
+                font-size: 12px;
+            }
+
+            .menu {
+                width: 65%;
+                padding: 16px;
+            }
+
+            h1 {
+                border-top: 5px solid black;
+                border-bottom: 5px solid black;
+            }
+
+            .topo {
+                position: sticky;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 815px) {
+            .topo {
+                background-color: transparent;
+                border-bottom: 0;
+            }
+
+            .container {
+                background-color: goldenrod;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                max-width: 966px;
+                margin: 0 auto;
+            }
+
+            footer {
+                width: 100%;
+                font-size: 12px;
+            }
+
+            .menu {
+                width: 65%;
+                height: 48px;
+                padding: 16px;
+            }
+
+            article {
+                flex: 0 0 32%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="topo">
+            <h1>👻<span class="ocultar">Exercício</span></h1>
+            <nav class="menu">
+                <a href="">Link 1</a>
+                <a href="">Link 2</a>
+                <a href="">Link 3</a>
+                <a href="">Link 4</a>
+            </nav>
+        </header>
+
+        <main class="conteudo">
+            <article class="cachorro">
+                <img src="imagens/cachorro.jpg" alt="">
+                <h2 class="espacamento">Cachorro</h2>
+                <p class="espacamento">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad velit rem quidem
+                    minus unde nesciunt
+                    animi pariatur nostrum inventore facere, ratione cumque, consequatur iste hic vero dolore ut!
+                    Veniam, cum!</p>
+            </article>
+            <article class="cidade">
+                <img src="imagens/cidade.jpg" alt="">
+                <h2 class="espacamento">cidade</h2>
+                <p class="espacamento">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad velit rem quidem
+                    minus unde nesciunt
+                    animi pariatur nostrum inventore facere, ratione cumque, consequatur iste hic vero dolore ut!
+                    Veniam, cum!</p>
+            </article>
+            <article class="escadas">
+                <img src="imagens/escadas.jpg" alt="">
+                <h2 class="espacamento">Escadas</h2>
+                <p class="espacamento">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad velit rem quidem
+                    minus unde nesciunt
+                    animi pariatur nostrum inventore facere, ratione cumque, consequatur iste hic vero dolore ut!
+                    Veniam, cum!</p>
+            </article>
+            <article class="luzes">
+                <img src="imagens/luzes.jpg" alt="">
+                <h2 class="espacamento">Luzes</h2>
+                <p class="espacamento">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad velit rem quidem
+                    minus unde nesciunt
+                    animi pariatur nostrum inventore facere, ratione cumque, consequatur iste hic vero dolore ut!
+                    Veniam, cum!</p>
+            </article>
+            <article class="montanhas">
+                <img src="imagens/montanhas.jpg" alt="">
+                <h2 class="espacamento">Montanhas</h2>
+                <p class="espacamento">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad velit rem quidem
+                    minus unde nesciunt
+                    animi pariatur nostrum inventore facere, ratione cumque, consequatur iste hic vero dolore ut!
+                    Veniam, cum!</p>
+            </article>
+            <article class="trilhos">
+                <img src="imagens/trilhos.jpg" alt="">
+                <h2 class="espacamento">Trilhos</h2>
+                <p class="espacamento">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad velit rem quidem
+                    minus unde nesciunt
+                    animi pariatur nostrum inventore facere, ratione cumque, consequatur iste hic vero dolore ut!
+                    Veniam, cum!</p>
+            </article>
+        </main>
+
+        <footer>
+            <div class="contato-conosco">
+                <h2 class="tamanho">Entre em contato conosco</h2>
+                <p><a href="Tel1121350300">☎️ (11)2135-0300</a></p>
+                <p><a href="teste@teste.com">✉️ teste@testes.com</a></p>
+            </div>
+
+            <div class="siga-nos">
+                <h2 class="tamanho">siga-nos!</h2>
+                <p><a href="facebbok">facebook</a></p>
+                <p><a href="linkedin">linkedin</a></p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
